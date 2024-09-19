@@ -1,0 +1,55 @@
+[
+    {
+        "Brand": "BMW",
+        "Models": [
+            {
+                "Model": "Series 3",
+                "Derivatives": [
+                    {
+                        "Derivative": "320i",
+                        "VehicleInfo": {
+                            "Introduced": "2019-05-01",
+                            "Discontinued": "2023-01-01"
+                        }
+                    },
+                    {
+                        "Derivative": "330i",
+                        "VehicleInfo": {
+                            "Introduced": "2020-04-01",
+                            "Discontinued": null
+                        }
+                    }
+                ]
+            },
+            {
+                "Model": "Series 5",
+                "Derivatives": [
+                    {
+                        "Derivative": "520d",
+                        "VehicleInfo": {
+                            "Introduced": "2018-06-15",
+                            "Discontinued": "2022-12-31"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "Models": [
+            {
+                "Model": "C-Class",
+                "Derivatives": [
+                    {
+                        "Derivative": "C200",
+                        "VehicleInfo": {
+                            "Introduced": "2017-03-10",
+                            "Discontinued": "2021-09-30"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
