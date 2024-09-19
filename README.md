@@ -33,7 +33,8 @@ This format is suitable for document-based databases like MongoDB or Azure Cosmo
   - `re` (regular expressions)
 
 ## Instructions for Running
-1. Clone the project repository:
+1. Clone the project repository:   git clone https://github.com/luizmatoss/cars_data_processing.git
+cd cars_data_processing
 
 2. Install the required libraries:
    ```bash
