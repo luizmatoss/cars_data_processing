@@ -18,7 +18,7 @@ This script:
 - Splits the data into separate tables (`Brands`, `Models`, `Derivatives`, and `Vehicle Info`) to maintain data integrity and avoid redundancy.
 - Outputs each table as a CSV file, ready for import into a relational database system.
 
-### 3. `Untitled-1.json`
+### 3. `Cars.json`
 This JSON file provides an example of the cleaned data in an unstructured format, demonstrating how the vehicle data can be organized for NoSQL databases. The structure follows a hierarchical format:
 - `Brand` -> `Models` -> `Derivatives` -> `VehicleInfo`.
 This format is suitable for document-based databases like MongoDB or Azure Cosmos DB.
