@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the cleaned data
-df_cars = pd.read_csv("/Users/luizcaprio/Desktop/ETL/TLA_Data_With_Errors_Cleaned_Final.csv")
+df_cars = pd.read_csv("path/brands/TLA_Data_With_Errors_Cleaned_Final.csv")
 
 # Step 1: Extract unique brands
 df_brands = df_cars[['Brand']].drop_duplicates().reset_index(drop=True)
@@ -26,16 +26,16 @@ df_vehicle_info = pd.merge(df_vehicle_info, df_derivatives, on='Derivative', how
 df_vehicle_info = df_vehicle_info[['DerivativeID', 'Introduced', 'Discontinued']]
 
 # Save each table to CSV for review
-df_brands.to_csv('/Users/luizcaprio/Desktop/ETL/brands.csv', index=False)
-df_models.to_csv('/Users/luizcaprio/Desktop/ETL/models.csv', index=False)
-df_derivatives.to_csv('/Users/luizcaprio/Desktop/ETL/derivatives.csv', index=False)
-df_vehicle_info.to_csv('/Users/luizcaprio/Desktop/ETL/vehicle_info.csv', index=False)
+df_brands.to_csv('path/brands.csv', index=False)
+df_models.to_csv('path/brands/models.csv', index=False)
+df_derivatives.to_csv('path/brands/derivatives.csv', index=False)
+df_vehicle_info.to_csv('path/brands/ETL/vehicle_info.csv', index=False)
 
 # Save each table to CSV for review
-df_brands.to_csv('/Users/luizcaprio/Desktop/ETL/brands.csv', index=False)
-df_models.to_csv('/Users/luizcaprio/Desktop/ETL/models.csv', index=False)
-df_derivatives.to_csv('/Users/luizcaprio/Desktop/ETL/derivatives.csv', index=False)
-df_vehicle_info.to_csv('/Users/luizcaprio/Desktop/ETL/vehicle_info.csv', index=False)
+df_brands.to_csv('path/brands/brands.csv', index=False)
+df_models.to_csv('path/brands/models.csv', index=False)
+df_derivatives.to_csv('path/brands/derivatives.csv', index=False)
+df_vehicle_info.to_csv('/path/brands/vehicle_info.csv', index=False)
 
 # Optional: Print out to check in the console
 print("Brands Table:")
